@@ -30,7 +30,7 @@ class Demo
         return new I();
     }
 
-    public function typeAReturnNull(): ?A {
+    public function typeAReturnNull(): A {
         echo __FUNCTION__ . "<br>";
         return null;
     }
@@ -55,7 +55,7 @@ class Demo
         return new I();
     }
 
-    public function typeBReturnNull(): ?B {
+    public function typeBReturnNull(): B {
         echo __FUNCTION__ . "<br>";
         return null;
     }
@@ -80,7 +80,7 @@ class Demo
         return new I();
     }
 
-    public function typeCReturnNull(): ?C {
+    public function typeCReturnNull(): C {
         echo __FUNCTION__ . "<br>";
         return null;
     }
@@ -105,7 +105,7 @@ class Demo
         return new I();
     }
 
-    public function typeIReturnNull(): ?I {
+    public function typeIReturnNull(): I {
         echo __FUNCTION__ . "<br>";
         return null;
     }

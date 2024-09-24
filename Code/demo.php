@@ -138,33 +138,33 @@ class Demo
 }
 
 $demo = new Demo();
-$demo = new Demo();
 
-// $ketqua1 = $demo->typeAReturnA();
-// $ketqua2 = $demo->typeAReturnB();
-// $ketqua3 = $demo->typeAReturnC();
-// $ketqua4 = $demo->typeAReturnI();
-// $ketqua5 = $demo->typeAReturnNull();
-// $ketqua6 = $demo->typeBReturnA();
-// $ketqua7 = $demo->typeBReturnB();
-// $ketqua8 = $demo->typeBReturnC();
-// $ketqua9 = $demo->typeBReturnI();
-// $ketqua10 = $demo->typeBReturnNull();
-// $ketqua11 = $demo->typeCReturnA();
-// $ketqua12 = $demo->typeCReturnB();
-// $ketqua13 = $demo->typeCReturnC();
-// $ketqua14 = $demo->typeCReturnI();
-// $ketqua15 = $demo->typeCReturnNull();
-// $ketqua16 = $demo->typeIReturnA();
-// $ketqua17 = $demo->typeIReturnB();
-// $ketqua18 = $demo->typeIReturnC();
-// $ketqua19 = $demo->typeIReturnI();
-// $ketqua20 = $demo->typeIReturnNull();
-// $ketqua21 = $demo->typeNullReturnA();
-// $ketqua22 = $demo->typeNullReturnB();
-$ketqua23 = $demo->typeNullReturnC();
-$ketqua24 = $demo->typeNullReturnI();
-$ketqua25 = $demo->typeNullReturnNull();
+
+// $ketqua = $demo->typeAReturnA();
+// $ketqua = $demo->typeAReturnB();
+// $ketqua = $demo->typeAReturnC();
+// $ketqua = $demo->typeAReturnI();
+// $ketqua = $demo->typeAReturnNull();
+// $ketqua = $demo->typeBReturnA();
+// $ketqua = $demo->typeBReturnB();
+// $ketqua = $demo->typeBReturnC();
+// $ketqua = $demo->typeBReturnI();
+// $ketqua = $demo->typeBReturnNull();
+// $ketqua = $demo->typeCReturnA();
+// $ketqua = $demo->typeCReturnB();
+// $ketqua = $demo->typeCReturnC();
+// $ketqua = $demo->typeCReturnI();
+// $ketqua = $demo->typeCReturnNull();
+// $ketqua = $demo->typeIReturnA();
+// $ketqua = $demo->typeIReturnB();
+// $ketqua = $demo->typeIReturnC();
+// $ketqua = $demo->typeIReturnI();
+// $ketqua = $demo->typeIReturnNull();
+// $ketqua = $demo->typeNullReturnA();
+// $ketqua = $demo->typeNullReturnB();
+$ketqua = $demo->typeNullReturnC();
+$ketqua = $demo->typeNullReturnI();
+$ketqua = $demo->typeNullReturnNull();
 
 
 

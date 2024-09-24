@@ -30,7 +30,7 @@ class Demo
         return new I();
     }
 
-    public function typeAReturnNull(): A {
+    public function typeAReturnNull(): ?A {
         echo __FUNCTION__ . "<br>";
         return null;
     }
@@ -55,7 +55,7 @@ class Demo
         return new I();
     }
 
-    public function typeBReturnNull(): B {
+    public function typeBReturnNull(): ?B {
         echo __FUNCTION__ . "<br>";
         return null;
     }
@@ -80,7 +80,7 @@ class Demo
         return new I();
     }
 
-    public function typeCReturnNull(): C {
+    public function typeCReturnNull(): ?C {
         echo __FUNCTION__ . "<br>";
         return null;
     }
@@ -105,7 +105,7 @@ class Demo
         return new I();
     }
 
-    public function typeIReturnNull(): I {
+    public function typeIReturnNull(): ?I {
         echo __FUNCTION__ . "<br>";
         return null;
     }
@@ -132,13 +132,39 @@ class Demo
 
     public function typeNullReturnNull(): ?I {
         echo __FUNCTION__ . "<br>";
-        return null; // Đúng
+        return null;
     }
 
 }
 
 $demo = new Demo();
-$ketqua = $demo->typeIReturnA();
+$demo = new Demo();
+
+// $ketqua1 = $demo->typeAReturnA();
+// $ketqua2 = $demo->typeAReturnB();
+// $ketqua3 = $demo->typeAReturnC();
+// $ketqua4 = $demo->typeAReturnI();
+// $ketqua5 = $demo->typeAReturnNull();
+// $ketqua6 = $demo->typeBReturnA();
+// $ketqua7 = $demo->typeBReturnB();
+// $ketqua8 = $demo->typeBReturnC();
+// $ketqua9 = $demo->typeBReturnI();
+// $ketqua10 = $demo->typeBReturnNull();
+// $ketqua11 = $demo->typeCReturnA();
+// $ketqua12 = $demo->typeCReturnB();
+// $ketqua13 = $demo->typeCReturnC();
+// $ketqua14 = $demo->typeCReturnI();
+// $ketqua15 = $demo->typeCReturnNull();
+// $ketqua16 = $demo->typeIReturnA();
+// $ketqua17 = $demo->typeIReturnB();
+// $ketqua18 = $demo->typeIReturnC();
+// $ketqua19 = $demo->typeIReturnI();
+// $ketqua20 = $demo->typeIReturnNull();
+// $ketqua21 = $demo->typeNullReturnA();
+// $ketqua22 = $demo->typeNullReturnB();
+$ketqua23 = $demo->typeNullReturnC();
+$ketqua24 = $demo->typeNullReturnI();
+$ketqua25 = $demo->typeNullReturnNull();
 
 
 

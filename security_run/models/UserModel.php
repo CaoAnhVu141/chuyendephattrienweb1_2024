@@ -14,12 +14,12 @@ class UserModel extends BaseModel
 
     public function findUserById($encoded_id, $secret_key)
     {
-        $id = $this->decrypt_id($encoded_id, $secret_key); // Giải mã ID
+        $id = $this->decrypt_id($encoded_id, $secret_key);
         if ($id === null) {
-            return null; // Nếu ID không hợp lệ, trả về null
+            return null; 
         }
 
-        $sql = 'SELECT * FROM users WHERE id = ' . intval($id); // Sử dụng intval để bảo vệ
+        $sql = 'SELECT * FROM users WHERE id = ' . intval($id);
         $user = $this->select($sql);
 
         return $user;
